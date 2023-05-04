@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.recent-work {
+    margin: 120px 24px 0px 24px;
+}
+
+.recent-work-text {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #1C1A19;
+    padding-bottom: 10px;
+}
+
+.hr-line {
+    width: 327px;
+    height: 3px;
+    background-color: black;
+    margin: 30px 0 80px 24px;
+}
+
+.recent-work-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,1fr);
+    row-gap: 24px;
+    justify-items: center;
+    padding-bottom: 120px;
+}
+
+.recent-work-sub-container1 {
+    margin: 0 24px;
+}
+
+.recent-work-heading {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #091E42;
+}
+
+.recent-work-para {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #091E42;
+    margin: 12px 0;
+}
+
+.recent-work-lists {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.recent-work-list {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #091E42;
+    border: 1px solid #8993A4;
+    padding: 10px 12px;
+}
+
+.recent-work-btn {
+    padding: 12px;
+    background: #FF6B00;
+    border-color: transparent;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.recent-work-sub-container {
+    Width: 327px;
+    Height: 386px;
+    background-image: url("../img/Recent\ Works2.png");
+}
+
+.recent-work-sub-container2{
+    margin-top: 72px;;
+}
+
+.recent-work-heading2 {    
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 44px;
+    color: #FFFFFF;
+    padding: 0 19px 0 13px;
+    margin-bottom: 12px;
+}
+
+.recent-work-para2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 0 19px 0 13px;
+    margin-bottom: 12px;
+}
+
+.recent-work-lists2 {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 22px;
+}
+
+.recent-work-list2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.24);
+    padding: 10px 12px;
+}
+
+.recent-work-btn2 {
+    background: #FF6B00;
+    padding: 20px 114px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-color: transparent;
+}
