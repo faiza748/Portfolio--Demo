@@ -11,62 +11,54 @@
 }
 
 .about-heading {
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 88px;
-    letter-spacing: 0.37px;
-    color: #FF6B00;
-    margin-top: 120px;
-    display: flex;
-    justify-content: center;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
 }
 
 .about-para {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    color: #F4F5F7;
-    margin: 24px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #f4f5f7;
+  margin: 24px;
 }
 
 .about-btn {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px;
-    gap: 10px;
-    width: 156px;
-    height: 48px;
-    background: #FF6B00;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    margin-left: 24px;
-    border: transparent;
+  display: flex;
+  padding: 12px;
+  background: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-left: 24px;
+  border: transparent;
 }
 
 .about-hr-container {
-    display: flex;
-    justify-content: center;
-    padding-top: 260px;
-    background-image: url(../img/illustration-about-me-mobile.svg);
-    background-repeat: no-repeat;
-    position: relative;
-    background-position-x: right;
-    bottom: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 260px;
+  background-image: url(../img/illustration-about-me-mobile.svg);
+  background-repeat: no-repeat;
+  position: relative;
+  background-position-x: right;
+  bottom: 50px;
 }
 
 .about-hr {
-    width: 90%;
+  width: 90%;
 }

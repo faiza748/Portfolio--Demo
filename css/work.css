@@ -126,9 +126,9 @@
 
 .recent-work-lists2 {
     display: flex;
-    justify-content: space-around;
     list-style: none;
     margin-bottom: 22px;
+    padding-left: 13px;
 }
 
 .recent-work-list2 {
@@ -140,16 +140,22 @@
     color: #FFFFFF;
     background: rgba(255, 255, 255, 0.24);
     padding: 10px 12px;
+    margin-right: 12px;
 }
 
 .recent-work-btn2 {
     background: #FF6B00;
-    padding: 20px 114px;
+    padding: 20px 117px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
     border-color: transparent;
+}
+
+.btn:hover {
+    background: #FFF5E1;
+    color: #F55800;
 }
